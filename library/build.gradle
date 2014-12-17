@@ -1,0 +1,11 @@
+dependencies {
+    // none
+}
+
+install {
+    repositories.mavenInstaller {
+        pom.artifactId = "fancycoverflow"
+    }
+}
+
+apply from: GRADLE_MVN_PUSH
